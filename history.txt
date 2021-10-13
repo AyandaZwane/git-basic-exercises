@@ -1,0 +1,224 @@
+    1  explorer.exe .
+    2  \\wsl$\<DistroName>\home\<UserName>\Project
+    3  explorer.exe .
+    4  ls
+    5  ls /data
+    6  ls /
+    7  pwd
+    8  mkdir Learning_unix
+    9  ls
+   10  cd
+   11  ls
+   12  cd Learning_unix
+   13  mkdir Outer_dir
+   14  cd Outer_dir
+   15  pwd
+   16  exit
+   17  root
+   18  pwd
+   19  cd /
+   20  cd home
+   21  cd ubuntu
+   22  pwd
+   23  cd Learning_unix/
+   24  mkdir Learning_nix
+   25  sudo mkdir Learning_unix
+   26  cd Learning_unix
+   27  cd ..
+   28  ../..
+   29  cd ../..
+   30  pwd
+   31  cd~
+   32  cd ~
+   33  pwd
+   34  cd
+   35  pwd
+   36  cd /
+   37  cd
+   38  pwd
+   39  ls
+   40  ls -l /home
+   41  ls -R
+   42  ls -l -t -r
+   43  ls -lh
+   44  dir
+   45  del dir
+   46  mv 
+   47  help
+   48  kill
+   49  man ls
+   50  man cd
+   51  man man
+   52  rmdir
+   53  cd ~/Learning_unix
+   54  rmdir
+   55  cd..
+   56  cd ..
+   57  cd
+   58  pwd
+   59  history
+   60  cd Learning_unix/
+   61  cd ..
+   62  cd Learning_unix/
+   63  touch heaven.txt
+   64  touch earth.txt
+   65  ls
+   66  touch earth.txt
+   67  ls
+   68  mkdir Temp
+   69  mv heaven.txt Temp/
+   70  mv earth.txt Temp/
+   71  ls
+   72  ls Temp/
+   73  ls ..
+   74  cd ..
+   75  pwd
+   76  exit
+   77  nano README.md
+   78  cat README.md
+   79  git status
+   80  cd git-basic-exercises
+   81  nano README.md
+   82  cat README.md
+   83  git status
+   84  git add README.md
+   85  git status
+   86  ls -a
+   87  git commit -m "initial commit"
+   88  git commit -m "second commit"
+   89  nano README.md
+   90  cat README.md
+   91  git commit -m "third commit"
+   92  git add README.md
+   93  git commit -m "third commit"
+   94  git log
+   95  nano README.md
+   96  cat README.md
+   97  git add README.md
+   98  git commit -m "second commit"
+   99  nano README.md
+  100  cat README.md
+  101  git commit -m "third commit"
+  102  git add README.md
+  103  git commit -m "third commit"
+  104  git log
+  105  git revert commit 8b9a3
+  106  git revert 8b9a3
+  107  git add 6f6b341
+  108  git add 6f6b341b5f662a8093f36e705bf4a292304de4d
+  109  git add initial commit
+  110  git reset HEAD
+  111  git log
+  112  git rebase 
+  113  git rebase --onto README.md~8b9a3c9ff12d32ae077c48ed3d6bbd7bf048e312 README.md~3d049d2b6aadbb7fc52fe7cffaec2eb7712e3b00 README.md
+  114  git log
+  115  exit
+  116  git rebase --onto README.md~8b9a3c9ff12d32ae077c48ed3d6bbd7bf048e312 README.md~3d049d2b6aadbb7fc52fe7cffaec2eb7712e3b00 README.md
+  117  git log
+  118  cd git-basic-exercises
+  119  ls -a
+  120  git log
+  121  git rebase --onto master~8b9a3c9ff12d32ae077c48ed3d6bbd7bf048e312 master~3d049d2b6aadbb7fc52fe7cffaec2eb7712e3b00 master
+  122  git log
+  123  git rebase --onto master~8b9a3c9ff12d32ae077c48ed3d6bbd7bf048e312 master~f098ce78b24140908f6a8e9eb18ae1d2dad47f18 master
+  124  git checkout
+  125  git rebase --onto master~8b9a3c9ff12d32ae077c48ed3d6bbd7bf048e312 master~3d049d2b6aadbb7fc52fe7cffaec2eb7712e3b00 master
+  126  git rebase --onto HEAD~8b9a3c9ff12d32ae077c48ed3d6bbd7bf048e312 HEAD~3d049d2b6aadbb7fc52fe7cffaec2eb7712e3b00 HEAD
+  127  git lot
+  128  git log
+  129  git reset HEAD^
+  130  git log
+  131  git reset HEAD^
+  132  git log
+  133  git reset HEAD^
+  134  git log
+  135  git reset HEAD^
+  136  git log
+  137  nano README.md
+  138  cat README.md
+  139  git status
+  140  git add README.md
+  141  git commt -m "second commit"
+  142  git commit -m "second commit"
+  143  nano README.md
+  144  cat README.md
+  145  git status
+  146  git add README.md
+  147  git commit -m "third commit"
+  148  git log
+  149  q
+  150  exit
+  151  git checkout b7392172316fe63e8cd9e04d97240530cbb97c5e
+  152  cd git-basic-exercises
+  153  git checkout b7392172316fe63e8cd9e04d97240530cbb97c5e
+  154  cat README.md
+  155  git checkout main
+  156  git checkout master
+  157  cat README.md
+  158  git branch
+  159  git branch milkshake-flavours
+  160  git branch
+  161  git checkout -b  milkshake-flavours
+  162  git checkout 
+  163  git branch
+  164  git checkout master
+  165  git checkout milkshake-flavours
+  166  nano milkshakes.md
+  167  git status
+  168  cat milkshakes.md
+  169  git add milkshakes.md
+  170  git commit -m "added initial flavours"
+  171  git og
+  172  git log
+  173  git checkout master
+  174  git branch history
+  175  git checkout history
+  176  git log
+  177  git branch
+  178  git checkout milkshake-flavours
+  179  git log
+  180  git checkout master
+  181  nano README.md
+  182  cat README.md
+  183  git status
+  184  git add README.md
+  185  git commit -m "random readme changes"
+  186  checkout history
+  187  git checkout history
+  188  cat README.md
+  189  rm README.md
+  190  git commit -m "rewrote readme"
+  191  git rm README.md
+  192  git commit -m "rewrote readme"
+  193  checkout master
+  194  git checkout master
+  195  git checkout main
+  196  git checkout master
+  197  ls
+  198  git log
+  199  git reset HEAD^
+  200  git log
+  201  git checkout milk-flavours 
+  202  git checkout milkshake-flavours 
+  203  git log
+  204  nano README.md
+  205  cat README.md
+  206  git status
+  207  git add README.md
+  208  git commit -m "random readme changes"
+  209  git checkout history
+  210  cat README.md
+  211  git checkout master
+  212  ls
+  213  git log
+  214  git checkout milkshake-flavours
+  215  ls
+  216  git log
+  217  git checkout history
+  218  ls
+  219  git log
+  220  git reset HEAD^
+  221  git log
+  222  history > history txt
+  223  git history > history txt
+  224  history > history.txt
